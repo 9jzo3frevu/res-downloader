@@ -55,6 +55,8 @@ Clean UI, easy to use, and supports a wide range of resource sniffing and downlo
 4. Open the target content externally (WeChat, Mini App, Browser, etc.)
 5. Return to the homepage to view the captured resource list
 
+> **Tip (macOS):** If the proxy doesn't capture browser traffic, go to System Settings → Network → Proxies and manually set the HTTP/HTTPS proxy to `127.0.0.1:8899`.
+
 ---
 
 ## ❓ FAQ
@@ -67,9 +69,5 @@ Clean UI, easy to use, and supports a wide range of resource sniffing and downlo
 ### 📡 Live Stream Resources
 
 - We recommend [OBS](https://obsproject.com/) for recording (search for setup tutorials)
-
-### 🔒 Certificate Issues on macOS
-
-- If HTTPS resources are not being captured, open **Keychain Access** → find the `res-downloader` certificate → set it to **Always Trust**
 
 ##
