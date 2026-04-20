@@ -57,6 +57,8 @@ Clean UI, easy to use, and supports a wide range of resource sniffing and downlo
 
 > **Tip (macOS):** If the proxy doesn't capture browser traffic, go to System Settings → Network → Proxies and manually set the HTTP/HTTPS proxy to `127.0.0.1:8899`.
 
+> **Tip (Linux):** You may need to manually trust the generated CA certificate. Import it into your system's certificate store or browser trust store for HTTPS capture to work correctly.
+
 ---
 
 ## ❓ FAQ
@@ -64,10 +66,4 @@ Clean UI, easy to use, and supports a wide range of resource sniffing and downlo
 ### 📺 m3u8 Video Resources
 
 - Online Preview: [m3u8play](https://m3u8play.com/)
-- Download Tool: [m3u8-down](https://m3u8-down.gowas.cn/)
-
-### 📡 Live Stream Resources
-
-- We recommend [OBS](https://obsproject.com/) for recording (search for setup tutorials)
-
-##
+- Download To
